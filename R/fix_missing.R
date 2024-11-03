@@ -8,7 +8,7 @@
 #'
 #' @examples
 #' valeurs <- c('1','9','3','1')
-#' fix_missing(valeurs)
+#' fix_missing(valeurs,9)
 #' #' @encoding UTF-8
 fix_missing <- function(x, na.value) {
   x[x == na.value] <- NA

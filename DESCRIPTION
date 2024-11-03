@@ -1,6 +1,6 @@
 Package: packageTest
 Title: Test for Learning
-Version: 0.0.0.9000
+Version: 0.0.1.0000
 Authors@R: 
     person("Moi", "Même", , "first.last@example.com", 
     role = c("aut", "cre"),
@@ -13,3 +13,5 @@ RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Imports: 
+    purrr
